@@ -1,0 +1,45 @@
+{
+  "TSTR_balanced": {
+    "roc_auc": 0.8662804890924037,
+    "pr_auc": 0.8231907503818084,
+    "prevalence": 0.5,
+    "recall_fraud": 0.9993913572732805,
+    "recall_nonfraud": 0.4850882531953743
+  },
+  "TSTR_realistic": {
+    "roc_auc": 0.8580615558178099,
+    "pr_auc": 0.006033504547221758,
+    "prevalence": 0.0012911347840983745,
+    "recall_fraud": 0.9993913572732805,
+    "recall_nonfraud": 0.4624563590139439
+  },
+  "TRTR_balanced": {
+    "roc_auc": 0.9990499913130421,
+    "pr_auc": 0.9989956156538734,
+    "prevalence": 0.5,
+    "recall_fraud": 0.9920876445526476,
+    "recall_nonfraud": 0.9805234327449787
+  },
+  "TRTR_realistic": {
+    "roc_auc": 0.9988682260813028,
+    "pr_auc": 0.7481584297559326,
+    "prevalence": 0.0012911347840983745,
+    "recall_fraud": 0.9920876445526476,
+    "recall_nonfraud": 0.9800059958406806
+  },
+  "dcr": {
+    "syn_min": 0.0011511390056449845,
+    "syn_median": 0.09093411213525696,
+    "real_min": 0.0,
+    "real_median": 0.003393925359514742,
+    "exact_replicas": 0
+  },
+  "config": {
+    "seed": 42,
+    "epochs": 100,
+    "latent_dim": 100,
+    "gan_train_rows": 13140,
+    "test_rows": 1272524,
+    "test_prevalence": 0.0012911347840983745
+  }
+}

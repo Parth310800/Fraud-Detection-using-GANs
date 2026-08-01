@@ -1,0 +1,15 @@
+# Data - PaySim CSV is ~470MB and redistribution isn't permitted
+*.csv
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.env
+
+# Model artifacts
+*.pth
+*.pkl
+*.joblib
